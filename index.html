@@ -222,28 +222,106 @@
         <h2 class="text-center mb-5" style="position: relative; margin-top: 2rem; font-size: 2.5rem; color: #008080; text-transform: uppercase; letter-spacing: 2px; text-shadow: 2px 2px 4px rgba(0,0,0,0.1);">My Portfolio</h2>
         
         <div class="projects-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; max-width: 1200px; margin: 0 auto;">
+            <!-- Project 1: Document Tracking System -->
             <div class="project-card" style="background: rgba(255,255,255,0.9); border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: all 0.3s ease;">
-                <img src="images/project1.jpg" alt="E-commerce Website" style="width: 100%; height: 200px; object-fit: cover;">
+                <div class="project-slider" style="position: relative; height: 200px;">
+                    <img src="images/1.png" alt="Document Tracking System Login" style="width: 100%; height: 200px; object-fit: cover; position: absolute; opacity: 1; transition: opacity 0.5s ease;">
+                    <img src="images/2.png" alt="Document Tracking System Dashboard" style="width: 100%; height: 200px; object-fit: cover; position: absolute; opacity: 0; transition: opacity 0.5s ease;">
+                    <img src="images/3.png" alt="Document Tracking System Interface" style="width: 100%; height: 200px; object-fit: cover; position: absolute; opacity: 0; transition: opacity 0.5s ease;">
+                    
+                    <div style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 2;">
+                        <span class="slider-dot active" style="width: 8px; height: 8px; background: #008080; border-radius: 50%; cursor: pointer;"></span>
+                        <span class="slider-dot" style="width: 8px; height: 8px; background: #ffffff; border-radius: 50%; cursor: pointer;"></span>
+                        <span class="slider-dot" style="width: 8px; height: 8px; background: #ffffff; border-radius: 50%; cursor: pointer;"></span>
+                    </div>
+                </div>
                 <div style="padding: 1.5rem;">
-                    <h3 style="color: #008080; font-size: 1.4rem; margin-bottom: 1rem;">E-commerce Platform</h3>
-                    <p style="color: #666; line-height: 1.6; margin-bottom: 1.5rem;">A full-stack e-commerce platform with user authentication, product management, and payment integration.</p>
+                    <h3 style="color: #008080; font-size: 1.4rem; margin-bottom: 1rem;">Document Tracking System</h3>
+                    <p style="color: #666; line-height: 1.6; margin-bottom: 1.5rem;">A comprehensive system for tracking and managing documents with user authentication, real-time status updates, and efficient document routing.</p>
                     <div class="tech-stack" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
-                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">Node.js</span>
-                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">MySQL</span>
                         <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">PHP</span>
+                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">MySQL</span>
+                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">Bootstrap</span>
+                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">JavaScript</span>
                     </div>
                     <div style="display: flex; gap: 1rem;">
-                        <a href="https://github.com/yourusername/project1" target="_blank" style="background: #008080; color: white; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; transition: all 0.3s ease;">
+                        <a href="https://github.com/JhoiAmbrosio" target="_blank" style="background: #008080; color: white; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; transition: all 0.3s ease;">
                             <i class="fab fa-github"></i> GitHub
                         </a>
-                        <a href="https://project1-demo.com" target="_blank" style="background: #333; color: white; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; transition: all 0.3s ease;">
+                        <a href="#" target="_blank" style="background: #333; color: white; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; transition: all 0.3s ease;">
                             <i class="fas fa-external-link-alt"></i> Live Demo
                         </a>
                     </div>
                 </div>
             </div>
     
-            <!-- Add more project cards with the same structure -->
+            <!-- Project 2: The Plant Corner -->
+            <div class="project-card" style="background: rgba(255,255,255,0.9); border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+                <div class="project-slider" style="position: relative; height: 200px;">
+                    <img src="images/first.png" alt="The Plant Corner Homepage" style="width: 100%; height: 200px; object-fit: cover; position: absolute; opacity: 1; transition: opacity 0.5s ease;">
+                    <img src="images/second.png" alt="The Plant Corner Products" style="width: 100%; height: 200px; object-fit: cover; position: absolute; opacity: 0; transition: opacity 0.5s ease;">
+                    <img src="images/third.png" alt="The Plant Corner Cart" style="width: 100%; height: 200px; object-fit: cover; position: absolute; opacity: 0; transition: opacity 0.5s ease;">
+                    
+                    <div style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 2;">
+                        <span class="slider-dot active" style="width: 8px; height: 8px; background: #008080; border-radius: 50%; cursor: pointer;"></span>
+                        <span class="slider-dot" style="width: 8px; height: 8px; background: #ffffff; border-radius: 50%; cursor: pointer;"></span>
+                        <span class="slider-dot" style="width: 8px; height: 8px; background: #ffffff; border-radius: 50%; cursor: pointer;"></span>
+                    </div>
+                </div>
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #008080; font-size: 1.4rem; margin-bottom: 1rem;">The Plant Corner</h3>
+                    <p style="color: #666; line-height: 1.6; margin-bottom: 1.5rem;">An e-commerce platform for plant enthusiasts featuring product catalog, shopping cart, and secure payment integration. Includes user authentication and order management system.</p>
+                    <div class="tech-stack" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">PHP</span>
+                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">MySQL</span>
+                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">Bootstrap</span>
+                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">JavaScript</span>
+                    </div>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="https://github.com/JhoiAmbrosio" target="_blank" style="background: #008080; color: white; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; transition: all 0.3s ease;">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="#" target="_blank" style="background: #333; color: white; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; transition: all 0.3s ease;">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Project 3: HRIS -->
+            <div class="project-card" style="background: rgba(255,255,255,0.9); border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+                <div class="project-slider" style="position: relative; height: 200px;">
+                    <img src="images/one.png" alt="HRIS Login Interface" style="width: 100%; height: 200px; object-fit: cover; position: absolute; opacity: 1; transition: opacity 0.5s ease;">
+                    <img src="images/two.png" alt="HRIS Dashboard" style="width: 100%; height: 200px; object-fit: cover; position: absolute; opacity: 0; transition: opacity 0.5s ease;">
+                    <img src="images/three.png" alt="HRIS Leave Management" style="width: 100%; height: 200px; object-fit: cover; position: absolute; opacity: 0; transition: opacity 0.5s ease;">
+                    <img src="images/four.png" alt="HRIS Employee Records" style="width: 100%; height: 200px; object-fit: cover; position: absolute; opacity: 0; transition: opacity 0.5s ease;">
+                    
+                    <div style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 2;">
+                        <span class="slider-dot active" style="width: 8px; height: 8px; background: #008080; border-radius: 50%; cursor: pointer;"></span>
+                        <span class="slider-dot" style="width: 8px; height: 8px; background: #ffffff; border-radius: 50%; cursor: pointer;"></span>
+                        <span class="slider-dot" style="width: 8px; height: 8px; background: #ffffff; border-radius: 50%; cursor: pointer;"></span>
+                        <span class="slider-dot" style="width: 8px; height: 8px; background: #ffffff; border-radius: 50%; cursor: pointer;"></span>
+                    </div>
+                </div>
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #008080; font-size: 1.4rem; margin-bottom: 1rem;">Human Resource Information System</h3>
+                    <p style="color: #666; line-height: 1.6; margin-bottom: 1.5rem;">A prototype for a comprehensive HR management system featuring employee data management, leave tracking, payroll integration, and administrative dashboard. Designed with focus on user experience and efficient workflow management.</p>
+                    <div class="tech-stack" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">Adobe XD</span>
+                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">UI/UX Design</span>
+                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">Prototype</span>
+                        <span style="background: #e3f2fd; color: #1976d2; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.9rem;">Wireframing</span>
+                    </div>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="https://github.com/JhoiAmbrosio" target="_blank" style="background: #008080; color: white; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; transition: all 0.3s ease;">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="#" target="_blank" style="background: #333; color: white; padding: 0.6rem 1.2rem; border-radius: 25px; text-decoration: none; transition: all 0.3s ease;">
+                            <i class="fas fa-external-link-alt"></i> Prototype
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -354,23 +432,25 @@
         <p></p>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Consolidated and updated JavaScript -->
     <script>
-        // Set initial active state
         document.addEventListener('DOMContentLoaded', () => {
+            // --- Navigation Active Link and Smooth Scrolling ---
             const sections = document.querySelectorAll('section');
             const navLinks = document.querySelectorAll('.nav-links a');
             
             function setActiveLink() {
                 let current = '';
+                const scrollPosition = window.scrollY + window.innerHeight / 2;
+
                 sections.forEach(section => {
                     const sectionTop = section.offsetTop;
                     const sectionHeight = section.clientHeight;
-                    if (window.scrollY >= (sectionTop - sectionHeight/3)) {
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
                         current = section.getAttribute('id');
                     }
                 });
-    
+
                 navLinks.forEach(link => {
                     link.classList.remove('active');
                     if (link.getAttribute('href').substring(1) === current) {
@@ -378,12 +458,55 @@
                     }
                 });
             }
-    
+
             // Set active state on page load
             setActiveLink();
             
             // Update active state on scroll
             window.addEventListener('scroll', setActiveLink);
+
+            // Add smooth scrolling
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+
+            // --- Project Image Sliders ---
+            const projectSliders = document.querySelectorAll('.project-slider');
+
+            projectSliders.forEach(slider => {
+                const images = slider.querySelectorAll('img');
+                const dots = slider.parentElement.querySelectorAll('.slider-dot'); // Select dots relative to the slider's parent
+                let currentImage = 0;
+
+                function showImage(index) {
+                    images.forEach(img => img.style.opacity = '0');
+                    dots.forEach(dot => dot.style.background = '#ffffff');
+                    images[index].style.opacity = '1';
+                    dots[index].style.background = '#008080';
+                }
+
+                // Initial display
+                showImage(currentImage);
+
+                // Dot click listeners
+                dots.forEach((dot, index) => {
+                    dot.addEventListener('click', () => {
+                        currentImage = index;
+                        showImage(currentImage);
+                    });
+                });
+
+                // Auto-slide every 3 seconds
+                setInterval(() => {
+                    currentImage = (currentImage + 1) % images.length;
+                    showImage(currentImage);
+                }, 3000);
+            });
         });
     </script>
 </body>
